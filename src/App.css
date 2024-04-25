@@ -52,3 +52,17 @@ footer {
   text-align: center;
   font: bold;
 }
+
+.lista {
+  background-color: #6367a5;
+  width: 30%;
+  padding: 15px;
+}
+
+.lista ul li button {
+  width: 90%;
+}
+
+.lista ul li {
+  list-style-type: none;
+}

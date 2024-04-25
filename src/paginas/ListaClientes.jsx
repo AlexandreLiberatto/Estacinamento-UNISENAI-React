@@ -22,18 +22,18 @@ function ListaClientes() {
     
 
     return (
-        <div>
+        <div className="lista">
             <h1>Listagem de Clientes:</h1>
             <ul>
                 {clientes.map((cliente, index) => (
                     <li key={index}>
-                        <strong>Nome do proprietário:</strong> {cliente.nome}<br />
-                        <strong>Placa do veículo:</strong> {cliente.placa}<br />
-                        <strong>Número do apartamento:</strong> {cliente.apartamento}<br />
-                        <strong>Bloco do apartamento:</strong> {cliente.bloco}<br />
-                        <strong>Modelo do veículo:</strong> {cliente.veiculo}<br />
-                        <strong>Cor do veículo:</strong> {cliente.cor}<br />
-                        <strong>Número da vaga:</strong> {cliente.vaga}<br />
+                        <p><strong>Nome do proprietário:</strong> {cliente.nome}</p>
+                        <p><strong>Placa do veículo:</strong> {cliente.placa}</p>
+                        <p><strong>Número do apartamento:</strong> {cliente.apartamento}</p>
+                        <p><strong>Bloco do apartamento:</strong> {cliente.bloco}</p>
+                        <p><strong>Modelo do veículo:</strong> {cliente.veiculo}</p>
+                        <p><strong>Cor do veículo:</strong> {cliente.cor}</p>
+                        <p><strong>Número da vaga:</strong> {cliente.vaga}</p>
                         <button onClick={() => handleExclusao(index)}>Excluir</button>
                     </li>
                 ))}
