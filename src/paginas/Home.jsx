@@ -1,4 +1,4 @@
-import Carro from './carro.jpg';
+
 import './Cadastro.css';
 
 
@@ -7,7 +7,7 @@ function Home() {
         <div className="container">
             <div>
                 <h1>Estacionamento UNISENAI</h1>
-                <img src={Carro} alt="Imagem Carro" />
+                <img src="carro.jpg" alt="Imagem Carro" />
             </div>
         </div>
     );
